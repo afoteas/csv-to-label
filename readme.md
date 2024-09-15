@@ -21,4 +21,7 @@ At the wsl2 follow the next steps.
     pip install -r requirements.txt
     ```
 - Run the `csv_to_labels.py` script
+    ``` bash
+    python3 csv_to_labels.py
+    ```
 
