@@ -30,7 +30,7 @@
         text-align: center;
         margin: 20px 0;
     }
-    .barcode img {
+    .barcode img, .qrcode img {
         max-width: 100%;
         height: auto;
     }
@@ -49,11 +49,11 @@
 <div class="label">
     <h2>Product Label</h2>
     <div class="barcode">
-        <img src="temp_barcode.png" alt="Barcode Image"> <!-- Display the barcode image here -->
+        <img src="{{ barcode }}" alt="Barcode Image"> <!-- Display the barcode image here -->
     </div>
-    <!-- <div class="qrcode">
+    <div class="qrcode">
         <img src="{{ qrcode }}" alt="QR Code Image"> <!-- QR Code image -->
-    </div> -->
+    </div>
     <div class="field">
         <strong>Product:</strong> <span>{{ product }}</span>
     </div>
@@ -64,4 +64,5 @@
         <strong>Position:</strong> <span>{{ position }}</span>
     </div>
 </div>
+</body>
 </html>
