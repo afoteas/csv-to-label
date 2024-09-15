@@ -1,0 +1,4 @@
+product,date,position,barcode_class,barcode_value
+Product A,2025-10-15,A1,ean13,1234567890128
+Product B,2025-11-20,B2,ean13,9876543210987
+Product C,2025-12-25,C3,ean13,1234567890987
