@@ -15,13 +15,13 @@ At the wsl2 follow the next steps.
 - Download the code from github
 - Go to folder and instatiate the `.env`. This is performed once.
     ``` bash
-    cd csv-to-labels
+    cd csv-to-label
     python3 -m venv .env
     source .env/bin/activate
     pip install -r requirements.txt
     ```
-- Run the `csv_to_labels.py` script
+- Run the `csv_to_label.py` script
     ``` bash
-    python3 csv_to_labels.py
+    python3 csv_to_label.py
     ```
 
